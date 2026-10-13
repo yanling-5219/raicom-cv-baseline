@@ -1,0 +1,9 @@
+# 合成小数据集配置（YOLO 格式）
+# 用 scripts/make_synth_data.py 生成，训练时从仓库根目录运行
+path: data/synth
+train: train/images
+val: val/images
+
+names:
+  0: rect
+  1: circle
